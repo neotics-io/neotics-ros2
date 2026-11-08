@@ -2,7 +2,7 @@
 
 - **Project:** ROS 2 (robot middleware)
 - **Original:** https://github.com/ros2/ros2
-- **Licence:** The original repository has no licence file of its own.
+- **Licence of the original:** The original repository has no licence file of its own.
 - **Copied from:** `rolling` at commit `f6edfcd5`, 6 Nov 2026
 
 ## Credit
@@ -11,8 +11,14 @@ This repository is a copy of the project above, kept by [Neotics](https://neotic
 
 ## Changes from the original
 
-| Date | File | Change |
-|---|---|---|
-| 8 Nov 2026 | `.github/README.md` | New file: the Neotics page GitHub shows for this repository. The original `README.md` is untouched. |
-| 8 Nov 2026 | `NEOTICS.md` | New file: this page. |
-| 8 Nov 2026 | `.github/neotics-wordmark.svg`, `.github/neotics-wordmark-white.svg` | New files: the Neotics logo for this page, for light and dark themes. |
+Added on 8 Nov 2026:
+
+| File | Change |
+|---|---|
+| `.github/README.md` | New file: the Neotics page GitHub shows for this repository. The original `README.md` is untouched. |
+| `NEOTICS.md` | New file: this page. |
+| `neotics/` | New folder: Neotics' own tools, tests and samples. See its [README](neotics/README.md) and [licence](neotics/LICENSE). |
+| `.github/workflows/neotics.yml` | New file: tests the `neotics` folder. |
+| `.github/neotics-wordmark.svg`, `.github/neotics-wordmark-white.svg` | New files: the Neotics logo for the page. |
+
+The original code outside these paths is unchanged.
